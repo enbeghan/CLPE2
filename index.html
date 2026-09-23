@@ -24,8 +24,8 @@
 </header>
 <section class="panel">
   <div class="controls">
-    <div><label for="subject">Subject</label><select id="subject"></select></div>
-    <div><label for="year">Exam year</label><select id="year"></select></div>
+    <div><label for="subject">Subject</label><select id="subject"><option>Loading questions…</option></select></div>
+    <div><label for="year">Exam year</label><select id="year"><option>Please wait…</option></select></div>
     <div><label for="order">Order</label><select id="order"><option value="ordered">Original order</option><option value="shuffle">Shuffle</option></select></div>
   </div>
   <div id="badges" class="badges"></div>
@@ -42,6 +42,6 @@
   <p class="small"><strong>Validation:</strong> “Validated” means the marked answer was supported by Book 2. “Corrected” means the old paper/key was repaired after checking Book 2. “Flagged” questions are kept for study but excluded from scoring because the wording/options do not support one safe answer.</p>
 </section>
 </main>
-<script src="script.js"></script>
+<script src="script.js?v=20260923-2"></script>
 </body>
 </html>
