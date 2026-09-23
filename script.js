@@ -353,7 +353,7 @@ function render(){
     show(x,st);
   }
 
-  next.disabled=!st;
+  next.disabled=false;
   next.textContent=i===set.length-1 ? "Finish" : "Next";
 }
 
