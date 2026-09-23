@@ -27,3 +27,9 @@ Validation summary:
 5. Choose `main` and `/(root)`, then save.
 
 The site is mobile responsive and requires no server or build step.
+
+## Analytics and retry behavior
+
+This version includes Google Analytics 4 using measurement ID `G-12L5TL43FK`. It tracks quiz starts, answers, completions, subject/year/order selections, restarts, and individual wrong-question retries.
+
+When a learner answers a scored question incorrectly, a **Try this question again** button appears. It clears only that question and removes that failed attempt from the displayed score denominator before the learner retries.
